@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Droneme</title>
+		<script src="../js/jquery.js"></script>
+		<link href="../css/bootstrap.min.css" rel=stylesheet>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+		$(document).ready(function(){
+			$("#btn-search").click(function() {
+				var nome = $( "#field_Buscar" ).text();
+
+				console.log(nome);
+				$("#btn-search").empty();
+				var url = "/drone/"+nome+"";
+				$.getJSON(url, function(data) {
+					var itens = [];
+					$.each(data, function(i){
+						itens.push("<tr> <td>"+ this.numeroSerie +"</td><td>"+ this.espec.modelo + "</td><td>"+ this.espec.marca + "</td><td>"+ this.espec.cor + "</td><td>" + this.espec.peso + "</td></tr>");
+						});		
+						$("#btn-search").append(itens);
+					});
+				});
+			});
+		</script>
+	</head>
+	<style type="text/css">
+		.cabecalho{background-color: rgb(24, 165, 204); /*background-image: url("img/back1.jpg"); background-size: 100%; background-repeat: no-repeat;*/}
+		.cabecalho ul{color: white; display: flex} 
+		.cabecalho ul li{padding: 1% 2% 1% 2%; text-decoration: none; overflow: hidden; margin-top: 4%; ; cursor: pointer;}
+		.cabecalho ul li:hover {background-color: rgba(69, 111, 193, 0.5);} 
+		
+		.seacrh{align-items: center;}
+		.cabecalho img{position: absolute; top: 5%; right: 3%; width: 3%; height: 5%; cursor: pointer;}
+		a {color: white;}
+
+		.row img{width: 3%; height: 5%; cursor: pointer;}
+
+		.painel_control{margin-top: 2%;float: left; border: solid black 5px; margin-left: 3%; width: 30%; height: 75%;}
+
+		.produtos{margin-left:4%; margin-top: 2%; float: left; border: solid black 5px; width: 60%; height: 75%;}
+	</style>
+	<body>
+		<header class="cabecalho">
+			<ul>
+				<li><a href="../index_droneme.html">Home</a></li>
+				<li>Sobre</li>
+				<li><a href="../pages/lista.html">Produtos</a></li>
+				<li>Contato</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+			<!-- <div class="seacrh">
+			<input type="text" class="input-large" id="searc_field" placeholder="Pesquisar...">
+			 
+			<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"> 
+			</div>
+			<img src="../img/search.png" id="btn-search"> -->
+		</header>
+
+		<div class="row">
+			<div class="col-md-4 col-lg-4"></div> <!--Essa merda serve pra alinhar, não esquecer dessa bosta -->
+			<div class="col-md-4 col-lg-4">
+				<input type="text" class="form-control" required="required" placeholder="Pesquisar" id="field_Buscar" />
+			</div>
+			<img src="../img/search.png" id="btn-search">
+			<!-- <div class="col-md-4 col-lg-4"></div> --> 
+		</div>
+
+		<div class="painel_control">
+			<tbody id="produtos_table"> 
+			</tbody>
+		</div>
+		<div class="produtos">
+		</div>
+	</body>
+</html>
