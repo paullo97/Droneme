@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dronando - Drones e algo mais</title>
+	<script src="js/jquery.js"></script>
+	<link href="css/bootstrap.min.css" rel=stylesheet>
+	<script>
+		$(document).ready(function(){
+			$("#busca").click(function() { //Funciona
+				var modelo = $( "#modelo option:selected" ).text();
+				var marca = $( "#marca option:selected" ).text();
+				var cor = $( "#cor option:selected" ).text();
+				var peso = $("#peso option:selected").text();
+
+				console.log(modelo, marca, cor, peso);
+
+				$("#dadosDrones").empty();
+				var url = "/drone/"+modelo+"/"+marca+"/"+cor+"/"+peso+"";
+				$.getJSON(url, function(data) {
+					var itens = [];
+					$.each(data, function(i){
+						itens.push("<tr> <td>"+ this.numeroSerie +"</td><td>"+ this.espec.modelo + "</td><td>"+ this.espec.marca + "</td><td>"+ this.espec.cor + "</td><td>" + this.espec.peso + "</td></tr>");
+					});		
+					$("#dadosDrones").append(itens);
+				});
+			});
+
+			$("#busca2").click(function() {
+				var marca = $( "#marca option:selected" ).text();
+
+				//console.log(marca);
+
+				$("#dadosDrones").empty();
+				var url = "/drone/"+marca+"";
+
+				//console.log("Aqui chega");
+				//console.log(url);
+
+				$.getJSON(url, function(data) {
+
+					//console.log("Aqui chega 2 ");
+					//console.log(data);
+
+					var itens = [];
+					$.each(data, function(i){
+						console.log("Aqui ta dentro do each");
+						itens.push("<tr> <td>"+ this.numeroSerie +"</td><td>"+ this.espec.modelo + "</td><td>"+ this.espec.marca + "</td><td>"+ this.espec.cor + "</td><td>" + this.espec.peso + "</td></tr>");
+					});		
+
+					//console.log("Aqui chega 3 ");
+
+					$("#dadosDrones").append(itens);
+				});
+			});
+
+			$("#buscaSerie").click(function(){
+				var numero = $("#NumberSerie").val();
+
+				console.log(numero);
+
+				$("#dadosDrones").empty();
+
+				var url = "/drone/"+numero+"";
+				console.log("Cheg aqui ");
+				console.log(url);
+
+				$.getJSON(url, function(data){
+					var itens = []; 
+					console.log("Chega aqui em");
+
+					$.each(data, function(i){
+						itens.push("<tr> <td>"+ this.numeroSerie +"</td><td>"+ this.espec.modelo + "</td><td>"+ this.espec.marca + "</td><td>"+ this.espec.cor + "</td><td>" + this.espec.peso + "</td></tr>");
+					});
+					$("#dadosDrones").append(itens);
+					console.log("Chega aqui tambem");
+				});
+			});
+		});
+	</script>
+  	</head>
+  	<body>
+  		<div id="painelBusca">
+            <div class="form-group col-md-4">
+                <label>Modelo</label>
+                <select id="modelo" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o Modelo</option>
+                    <option value="Maverik">Maverik</option>
+                    <option value=" - - "> - - </option>
+                    <option value=" - - "> - - </option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Marca</label>
+                <select id="marca" class="input-large form-control">
+                    <option value="" selected="selected">Escolha a Marca</option>
+                    <option value="DJI">DJI</option>
+                    <option value=" - - "> - - </option>
+                    <option value=" - - "> - - </option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Cor</label>
+                <select id="cor" class="input-large form-control">
+                    <option value="" selected="selected">Escolha a Cor</option>
+                    <option value="Branco">Branco</option>
+                    <option value="verde">verde</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Peso</label>
+                <select id="peso" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o Peso</option>
+                    <option value="25KG">25KG</option>
+                    <option value="35KG">35KG</option>
+                    <option value="45KG">45KG</option>
+                    <option value="55KG">55KG</option>
+                    <option value="60KG">60KG</option>
+                    <option value="120KG">120KG</option>
+                    <option value="250KG">250KG</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-4">
+            	<label>Numero de Serie</label>
+            	<input type="text" id="NumberSerie" class="input-large form-control">
+            	<button id="buscaSerie" class="btn btn-primary col-md-offset-5">Buscar por Serie</button>
+            </div>
+		</div>
+		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar</button>
+		<button id="busca2" class="btn btn-primary col-md-offset-5">Buscar2</button>
+		<table class="table table-bordered"> 
+			<caption>Drones</caption>
+				<thead>
+					<tr> 
+						<th>N° Serie</th>
+						<th>Modelo</th> 
+						<th>Marca</th> 
+						<th>Cor</th>
+						<th>Peso</th> 
+					</tr> 
+				</thead> 
+				<tbody id="dadosDrones"> 
+				</tbody> 
+		</table>
+  	</body>
+</html>
