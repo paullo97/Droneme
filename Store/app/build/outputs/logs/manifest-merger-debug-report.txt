@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\5c8982a9295fe2c15e669d4cdb70b53e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\79b5e332d8547b0497310dd620e013e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f0338cb47ca8afa2011081f287880ae\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2225703c67c18ceec34b0bc2622fb24e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\d4cb4edb671beaa8253512c30cc2adab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\1fedc6d3f770b989781906a3be694918\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\609b04685f61a357e8ed742fb01d98f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\ddba9333768e283e8ef0410d569fcdbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\e329d69473e84bd7fd6cb5a9ac7b5405\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\832f6d64db6511d8fc2abedf3b7cef61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\61b558fae81d291514e638a44010fff1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bba435180196c91167ec598e7648a29f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e33d878e9384f3b835e156e98197bed9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\926f346a7187a2171befddfe4dc58b96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc09a084df2aa91f01cca2c649f74733\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\17de1e1ecccd3bfaea680008d8375d69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3fa22d78076da88d60451f2bdc46055f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\659cf4021ffd787192ff3d780772f866\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1f1010ac62914358f7d16fdddf328545\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\25fe53c25eabaa6d3a0f88b823bdd4ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4c1159f7a1390e20dd9d0c54a519790e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\490a5d905239b9c77cbaa39000d7e51d\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f82600a768b0267fa7a7a822ceb0690\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\980decd698d307bf296a2cdae9c9f4fb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\73ee8780a2f6d5468383b402c8247b64\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a6ab1e886810b60dcc6203917b58cfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\343e368ad5430def1a49aadb18a145c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e04725760b530ac50da999b64e071ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d2e2ca6613c5d5f6a809c5e57daaf532\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\46c98a4b7f5f9552a1433651aefa4c7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0175f336c76296cd0cbcc00ea501befc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4d7584ed9c28d903a2c71d7289b9b6c7\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:5:5-28:19
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\5c8982a9295fe2c15e669d4cdb70b53e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\5c8982a9295fe2c15e669d4cdb70b53e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f0338cb47ca8afa2011081f287880ae\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f0338cb47ca8afa2011081f287880ae\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\490a5d905239b9c77cbaa39000d7e51d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\490a5d905239b9c77cbaa39000d7e51d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.store.store.MainActivity
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.store.store.MainNavActivity
+ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml:20:13-44
+uses-sdk
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\5c8982a9295fe2c15e669d4cdb70b53e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\5c8982a9295fe2c15e669d4cdb70b53e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\79b5e332d8547b0497310dd620e013e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\79b5e332d8547b0497310dd620e013e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f0338cb47ca8afa2011081f287880ae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f0338cb47ca8afa2011081f287880ae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2225703c67c18ceec34b0bc2622fb24e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2225703c67c18ceec34b0bc2622fb24e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\d4cb4edb671beaa8253512c30cc2adab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\d4cb4edb671beaa8253512c30cc2adab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\1fedc6d3f770b989781906a3be694918\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\1fedc6d3f770b989781906a3be694918\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\609b04685f61a357e8ed742fb01d98f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\609b04685f61a357e8ed742fb01d98f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\ddba9333768e283e8ef0410d569fcdbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\ddba9333768e283e8ef0410d569fcdbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\e329d69473e84bd7fd6cb5a9ac7b5405\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\e329d69473e84bd7fd6cb5a9ac7b5405\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\832f6d64db6511d8fc2abedf3b7cef61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\832f6d64db6511d8fc2abedf3b7cef61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\61b558fae81d291514e638a44010fff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\61b558fae81d291514e638a44010fff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bba435180196c91167ec598e7648a29f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bba435180196c91167ec598e7648a29f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e33d878e9384f3b835e156e98197bed9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e33d878e9384f3b835e156e98197bed9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\926f346a7187a2171befddfe4dc58b96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\926f346a7187a2171befddfe4dc58b96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc09a084df2aa91f01cca2c649f74733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc09a084df2aa91f01cca2c649f74733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\17de1e1ecccd3bfaea680008d8375d69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\17de1e1ecccd3bfaea680008d8375d69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3fa22d78076da88d60451f2bdc46055f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3fa22d78076da88d60451f2bdc46055f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\659cf4021ffd787192ff3d780772f866\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\659cf4021ffd787192ff3d780772f866\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1f1010ac62914358f7d16fdddf328545\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1f1010ac62914358f7d16fdddf328545\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\25fe53c25eabaa6d3a0f88b823bdd4ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\25fe53c25eabaa6d3a0f88b823bdd4ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4c1159f7a1390e20dd9d0c54a519790e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4c1159f7a1390e20dd9d0c54a519790e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\876397b11dcc17f8a85e6ab27600035c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\490a5d905239b9c77cbaa39000d7e51d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\490a5d905239b9c77cbaa39000d7e51d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f82600a768b0267fa7a7a822ceb0690\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7f82600a768b0267fa7a7a822ceb0690\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\980decd698d307bf296a2cdae9c9f4fb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\980decd698d307bf296a2cdae9c9f4fb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\73ee8780a2f6d5468383b402c8247b64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\73ee8780a2f6d5468383b402c8247b64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a6ab1e886810b60dcc6203917b58cfc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6a6ab1e886810b60dcc6203917b58cfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\343e368ad5430def1a49aadb18a145c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\343e368ad5430def1a49aadb18a145c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e04725760b530ac50da999b64e071ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e04725760b530ac50da999b64e071ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d2e2ca6613c5d5f6a809c5e57daaf532\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d2e2ca6613c5d5f6a809c5e57daaf532\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\46c98a4b7f5f9552a1433651aefa4c7b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\46c98a4b7f5f9552a1433651aefa4c7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0175f336c76296cd0cbcc00ea501befc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0175f336c76296cd0cbcc00ea501befc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4d7584ed9c28d903a2c71d7289b9b6c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Renata\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4d7584ed9c28d903a2c71d7289b9b6c7\AndroidManifest.xml:20:5-44
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		ADDED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
+		INJECTED from C:\VINICIUS\FACULDADE\4SEMESTRE\PADROES DE PROJETOS\Store\app\src\main\AndroidManifest.xml
